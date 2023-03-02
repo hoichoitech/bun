@@ -114,7 +114,7 @@ LABEL org.opencontainers.image.title="bun base image with zig & webkit ${BUILDAR
 LABEL org.opencontainers.image.source=https://github.com/jarred-sumner/bun
 
 
-FROM debian:bullseye-slim as bun-test-base
+FROM debian:11.6-slim as bun-test-base
 # Original creator:
 # LABEL maintainer "Jessie Frazelle <jess@linux.com>"
 
